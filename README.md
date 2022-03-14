@@ -10,22 +10,30 @@ Prerequisites
 
 Ensure Expo CLI is installed on your development machine and you have the Expo Go app on an iOS or Android physical device or emulator.
 
+```
 $ git clone (repo)
 $ cd recipeSelector
-$ npm i
+$ yarn install
 $ open -a Simulator; expo start --clear
+```
 
-
---
 
 The Code
 
-This app has been built with javascript. I have added the prop-types which provides run-time type-checking akin to a typescript set up. 
+This app has been built
 
-- Javascript (with some prop-types)
+- Javascript
+- Prop-types
 - Styled components
 - Axios
 - React-navigation
+
+
+
+Extensions:
+- Proptypes across every file (or a switch to Typescript)
+- A new 'All recipe' sectiojn using the 'all recipes' API endpoint, built with <FlatList/> and an inifinate scroll (i.e usng a loadMore to automatically retrieve all recipes from the API on the list scroll.  
+
 
 
 Screen Shots
